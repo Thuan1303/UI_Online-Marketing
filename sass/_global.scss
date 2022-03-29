@@ -1,0 +1,56 @@
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: poppins;
+}
+.container{
+    max-width: 1135px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container-fluid{
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.button{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 36px;
+    border-radius: 100rem;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    text-align: center;
+    height:50px;
+    &--primary{
+        color: #fff;
+        background:$orange-color-linear;
+        font-weight: 500;
+        // line-height:24px;
+        font-size: 16px;
+    }
+    &--secondary{
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        font-size: 16px;
+        font-weight: 500;
+        // line-height:24px;
+    }
+}
+.title-global{
+    font-size: 16px;
+    color: $primary-color;
+    font-weight: 600;
+}
+.heading-global{
+    font-weight: 700;
+    color: $black;
+    font-size: 40px;
+}
+.description-global{
+    font-size: 16px;
+    color: $gray-blur;
+}

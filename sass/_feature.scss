@@ -1,0 +1,21 @@
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // gap:87px;
+    margin-top: 95px;
+    &_img img{
+        max-width: 602px;
+        transform: translateX(-60px);
+    }
+    &_content{
+        max-width: 502px;
+    }
+    &_heading{
+        margin: 25px 0;
+    }
+    &_button{
+        margin-top: 37px;
+        transform: translateX(-15px);
+    }
+}

@@ -1,0 +1,50 @@
+.service{
+    margin-top: $margin-section;
+    &_header{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &_title{
+        align-items: center;
+    }
+    &_heading{
+        max-width:426px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &_desc{
+        margin-top: 40px;
+    }
+    &_cart{
+        display: flex;
+        justify-content: space-around;
+        gap: 33px;
+        &-item{
+            max-width: 334px;
+            box-shadow: 1px 1px 1px 1px #ccc;
+            border-radius: 5px;
+            margin-top: 75px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 44px;
+        }
+        &-item img{
+            margin-top: 40px;
+        }
+        &-heading{
+            margin-top: 25px;
+            font-size: 21px;
+            color: $black;
+            font-weight: 600;
+        }
+        &-desc{
+            margin-top: 20px;
+            font-size: 14px;
+            color: $gray-blur; 
+            text-align: center;
+            padding-bottom: 87px;
+        }
+    }
+}
