@@ -25,19 +25,30 @@
     border: 0;
     text-align: center;
     height:50px;
+    transition:all 0.5 linear;
     &--primary{
         color: #fff;
         background:$orange-color-linear;
         font-weight: 500;
-        // line-height:24px;
         font-size: 16px;
+    }
+    &--primary:hover{
+        background:#fff;
+        transition:all 0.3s linear;
+        border: 1px solid $primary-color;
+        color: $primary-color;
+
     }
     &--secondary{
         color: $primary-color;
         border: 1px solid $primary-color;
         font-size: 16px;
         font-weight: 500;
-        // line-height:24px;
+    }
+    &--secondary:hover{
+        color: #fff;
+        transition:all 0.3s linear;
+        background: $orange-color-linear;
     }
 }
 .title-global{
@@ -53,4 +64,9 @@
 .description-global{
     font-size: 16px;
     color: $gray-blur;
+    font-weight: 500;
+}
+.footer-desc{
+    font-size: 14px;
+    color: #AFACCD;
 }

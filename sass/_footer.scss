@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    align-items: center;
+    background:#052347;
+    padding: 115px 55px;
+    color: #fff;
+    &_infor{
+        max-width:235px;
+    }
+    &_logo{
+        font-size: 20px;
+        display: flex;
+    }
+    &_logo img{
+        margin-right: 10px;
+    }
+    &_detail{
+        margin: 25px 0;
+    }
+    &_social{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &_list{
+        margin-left: 220px;
+        display: flex;
+        align-items: center;
+    }&_item{
+        margin-right: 80px;
+        &-title {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    }
+}
+.footer-desc li{
+    list-style: none;
+    margin-bottom: 10px;
+}

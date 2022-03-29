@@ -1,0 +1,41 @@
+.blog{
+    margin-top: $margin-section;
+    &_header{
+        max-width:600px;
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    &_desc{
+        margin-top: 25px;
+        margin-bottom: 75px;
+    }
+    &_carts{
+        display: flex;
+        align-items: center;
+        gap: 34px;
+    }
+    &_item{
+        max-width:354px;
+        max-height: 483px;
+        align-items: center;
+        &-title{
+            font-size: 18px;
+            font-weight: 600;
+            color: $black;
+            padding:0 25px;
+            margin-top: 30px;
+            transition: all 0.1s linear;
+        }
+        &-title:hover{
+            color: $primary-color;
+        }
+        &-desc{
+            padding:0 25px;
+            margin-top: 10px;
+            font-size: 13px;
+            color: $gray-blur;
+        }
+    }
+}

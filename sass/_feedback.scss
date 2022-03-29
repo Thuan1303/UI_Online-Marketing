@@ -1,0 +1,16 @@
+.feedback{
+    margin-top: $margin-section;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_values{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+    &_values span{
+        font-size: 25px;
+        color: $primary-color;
+        margin:0 12px;
+    }
+}
