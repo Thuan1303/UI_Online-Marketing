@@ -25,3 +25,13 @@
         }
     }
 }
+@media screen and (max-width: 767px) {
+    .feedback{
+        margin-top: $margin-section-mobile;
+        &_img img{
+            transform: scale(1);
+            max-width: 450px;
+            margin: 0 auto;
+        }
+    }
+}

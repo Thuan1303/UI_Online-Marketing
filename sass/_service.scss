@@ -69,3 +69,24 @@
         }
     }
 }
+@media screen and (max-width: 767px) {
+    .service{
+        margin-top: $margin-section-mobile;
+        &_desc{
+            text-align: center;
+        }
+        &_cart{
+            &-item{
+                margin-top: 25px;
+            }
+            &-heading{
+                font-size: 20px;
+            }
+            &-desc{
+                font-size: 16px;
+            }
+        }
+    }
+
+}
+

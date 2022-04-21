@@ -69,3 +69,23 @@
         }
     }
 }
+@media screen and (max-width: 767px) {
+    .footer{
+        flex-direction: column;
+        &_infor{
+            max-width: 400px;
+        }
+        &_item-title{
+            font-size: 18px;
+        }
+        &-desc li{
+            font-size: 14px;
+        }
+        &_list{
+            gap: 20px;
+            align-items: center;
+        }
+    }
+
+}
+

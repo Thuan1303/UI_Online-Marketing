@@ -36,3 +36,14 @@
         }
     }
 }
+@media screen and (max-width: 767px) {
+    .feature{
+        margin-top: $margin-section-mobile;
+        margin-bottom: 0;
+        &_img img{
+            transform: scale(0.8);
+            margin-top: 0;
+        }
+    }
+}
+

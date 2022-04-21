@@ -6,3 +6,10 @@
         margin-top: 20px;
     }
 }
+@media screen and (max-width: 767px) {
+    .logo{
+        margin-top: $margin-section-mobile;
+        transform: scale(1.3);
+    }
+}
+

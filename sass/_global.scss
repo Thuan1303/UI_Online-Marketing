@@ -73,3 +73,17 @@
     font-size: 14px;
     color: #AFACCD;
 }
+@media screen and (max-width: 767px) {
+    .button{
+        padding: 0 20px;
+    }
+    .title-global{
+        font-size: 14px;
+    }
+    .heading-global{
+        font-size: 25px;
+    }
+    .description-global{
+        font-size: 16px !important;
+    }
+}
