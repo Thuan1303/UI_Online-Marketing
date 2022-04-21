@@ -1,5 +1,6 @@
 .hero{
     margin-top: $margin-section;
+    overflow: hidden;
     &_content{
         max-width: 500px;
     }
@@ -34,5 +35,33 @@
         width: 100%;
         margin-left: 30px;
 
+    }
+}
+// responsive tablet
+@media screen and (max-width: 1023px) {
+    .hero{
+        margin-top: 80px;
+        &_main{
+            flex-direction: column ;
+            gap: 10px;
+        }
+        &_content{
+            max-width: 650px;
+        }
+        &_title{
+            font-size: 16px;
+        }
+        &_heading{
+            font-size: 40px;
+        }
+        &_desc{
+            font-size: 18px;
+        }
+        &_cart{
+            transform: scale(0.7);
+        }
+        &_nav{
+            margin-top: 10px;
+        }
     }
 }

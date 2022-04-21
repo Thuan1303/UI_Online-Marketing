@@ -6,10 +6,10 @@
     align-items: center;
     gap: 80px;
     padding:80px 160px 115px;
+    overflow: hidden;
 
     &_content{
         max-width:405px;
-        max-height:189px;
     }
     &_heading{
         font-size: 48px;
@@ -32,6 +32,27 @@
         & button{
             position: absolute;
             transform: translateX(-20px);
+        }
+    }
+}
+
+@media screen and (max-width: 1023.98px) {
+    .newsletter{
+        flex-direction: column;
+        margin-top: 80px;
+        gap:40px;
+        justify-content: center;
+        &_content{
+            max-width: 650px;
+        }
+        &_heading{
+            font-size: 40px;
+        }
+        &_desc{
+            font-size: 18px;
+        }
+        &_subscribe{
+            min-width: 300px;
         }
     }
 }

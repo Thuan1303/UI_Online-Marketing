@@ -38,3 +38,34 @@
     list-style: none;
     margin-bottom: 10px;
 }
+@media screen and (max-width: 1023px) {
+    .footer{
+        // flex-direction: column;
+        padding: 80px 20px;
+        align-items: flex-start;
+        gap:50px;
+        &_list{
+            margin: 0;
+            flex-wrap: wrap;
+            width: 440px;
+            gap:20px;
+        }
+        &_item{
+            max-width: 200px;
+            margin:0;
+            &-title{
+                font-size: 22px;
+            }
+        }
+        &_logo{
+            font-size: 30px;
+        }
+        &-desc{
+            font-size: 16px;
+        }
+        &_icon img{
+            width: 45px;
+            height: 45px;
+        }
+    }
+}

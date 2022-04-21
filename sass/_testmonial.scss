@@ -8,3 +8,15 @@
     transform: scale(1.5);
     margin-left: 50px;
 }
+@media screen and (max-width: 1023px) {
+    .testmonial{
+        margin-top: 80px;
+        padding: 10px;
+        .feature{
+            flex-direction: column-reverse;
+            &_img img{
+                transform: translateX(-75px);
+            }
+        }
+    }
+}

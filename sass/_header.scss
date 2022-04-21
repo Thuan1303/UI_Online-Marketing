@@ -26,4 +26,85 @@
     &_button button{
         margin-left: 15px;
     }
+    &_icon-menu{
+        font-size: 35px;
+        cursor: pointer;
+        padding: 4px 8px;
+        display: none;
+    }
+    &_icon-close{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        cursor: pointer;
+        display: none;
+        padding: 6px 12px;
+    }
+}
+// responsive tablet
+@media screen and (max-width: 1023px) {
+    .header{
+        &_menu{
+            display: none;
+            transition: all 0.3s ease;
+            animation: show 0.3s linear;
+
+        }
+        &_icon-menu{
+            display: block;
+        }
+        &_button{
+            padding: 8px 10px !important;
+            margin-left: 200px;
+        }
+        &_icon-close{
+            display: block;
+            z-index: 9999;
+        }
+    }
+}
+.menu_respon{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: $black;
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: auto;
+    z-index: 99999;
+    align-items: center;
+    justify-content: stretch;
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+.menu_respon a{
+    font-size: 20px !important;
+    color: white !important;
+    width: 100%;
+    padding: 20px  10px;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+.menu_respon a:first-of-type{
+    margin-top: 50px;
+}
+.menu_respon a:last-of-type{
+    margin-bottom: 50px;
+}
+
+@keyframes show {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
